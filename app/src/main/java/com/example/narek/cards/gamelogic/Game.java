@@ -19,7 +19,7 @@ public class Game {
     private TimerFactory timerFactory;
     private GameStateChanged stateChangedListener;
     private GameTimer gameTimer;
-    private GameTimer gameTimer2;
+//    private GameTimer gameTimer2;
 
 
 
@@ -67,7 +67,7 @@ public class Game {
 
         this.timerFactory = timerFactory;
         this.gameTimer = timerFactory.create();
-        this.gameTimer2 = timerFactory.create();
+//        this.gameTimer2 = timerFactory.create();
 
         this.gameTimer.setTimeTickInterval(this.complexity.getVersionTime() * 1000);
 
