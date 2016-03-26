@@ -28,6 +28,7 @@ import java.util.List;
  * TODO: document your custom view class.
  */
 public class CardView extends View {
+    float someOtherVariable;
     int[][] backgroundColors = new int[4][4];
     private int rowCount = 4;
     private List<ShapeDrawable> shapeDrawables = new ArrayList<>();
